@@ -21,7 +21,7 @@ function Head() {
         <Link to="/">
           <div className="flex gap-2 items-center">
             <img
-              src="./logo.png"
+              src="./alarado-icon-homepage.png"
               alt="icon homepage"
               className="w-10"
             />
