@@ -36,7 +36,7 @@ function Activity() {
       </div>
 
       <div className="ml-8 dark:text-white mt-48">
-  <p className="text-3xl font-semibold font-cursive">
+  <p className="text-2xl font-semibold font-cursive">
     "Tough times never last, but tough people do." 
     <p>Robert H. Schuller</p> 
   </p>

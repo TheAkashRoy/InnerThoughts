@@ -8,7 +8,7 @@ const Timer = () => {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen">
-            <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '20px', color: 'dark:text-white' }}>
+            <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '20px', color: 'dark:text-white', textAlign: 'center', padding: '10px' }}>
                 {task}
             </h1>
             
