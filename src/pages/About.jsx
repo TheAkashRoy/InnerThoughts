@@ -7,10 +7,10 @@ export default function About() {
       <h1 className='text-4xl font-extrabold mb-8 dark:text-white'>
         Welcome to Inner Thoughts
       </h1>
-      <p className='mb-6 text-2xl  text-white leading-7'>
+      <p className='mb-6 text-2xl  dark:text-white leading-7'>
         At MIND, we redefine the real estate experience, offering a unique blend of expertise, innovation, and personalized service. Our mission is to assist clients in making informed decisions about their real estate journey, whether buying, selling, or renting properties.
       </p>
-      <p className='mb-6 text-2xl  text-white leading-7'>
+      <p className='mb-6 text-2xl  dark:text-white leading-7'>
         With a team of seasoned professionals, MIND stands out as a leading real estate agency. We are committed to providing unparalleled service, leveraging our deep market knowledge and cutting-edge technologies to meet the diverse needs of our clients.
       </p>
       {/* <p className='mb-6 text-2xl  text-white leading-7'>
