@@ -21,12 +21,12 @@ function Head() {
         <Link to="/">
           <div className="flex gap-2 items-center">
             <img
-              src="./alarado-icon-homepage.png"
+              src="./logo.png"
               alt="icon homepage"
               className="w-10"
             />
             <span className="text-black dark:text-white text-xl font-bold">
-              MIND
+              INNER THOUGHTS
             </span>
           </div>
         </Link>
