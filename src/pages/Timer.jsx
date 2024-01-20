@@ -16,11 +16,11 @@ const Timer = () => {
                 isPlaying
                 duration={60}
                 colors={['#004777', '#F7B801', '#A30000', '#A30000']}
-                colorsTime={[7, 5, 2, 0]}
+                colorsTime={[45, 30, 15, 0]}
                 size={400} // Decreased the size
             >
                 {({ remainingTime }) => (
-                    <div style={{ fontSize: '10vw', fontWeight: 'bold', color: 'text-white' }}>
+                    <div style={{ fontSize: '10vw', fontWeight: 'bold', color: 'white' }}>
                         {remainingTime}
                     </div>
                 )}
