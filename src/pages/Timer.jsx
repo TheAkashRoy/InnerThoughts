@@ -1,23 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-import {
-    useParams,
-} from "react-router-dom";
+import { useParams } from "react-router-dom";
+
 const Timer = () => {
     let { task } = useParams();
+
     return (
         <div className="flex flex-col items-center justify-center h-screen">
-            <h1>{task}</h1>
+            <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '20px', color: 'dark:text-white' }}>
+                {task}
+            </h1>
+            
             <CountdownCircleTimer
                 isPlaying
-                duration={30}
+                duration={60}
                 colors={['#004777', '#F7B801', '#A30000', '#A30000']}
                 colorsTime={[7, 5, 2, 0]}
-                size={500} // Increased the size
+                size={400} // Decreased the size
             >
                 {({ remainingTime }) => (
-                    <div style={{ fontSize: '20vw', fontWeight: 'bold', color: 'dark:text-white' }}>
+                    <div style={{ fontSize: '10vw', fontWeight: 'bold', color: 'text-white' }}>
                         {remainingTime}
                     </div>
                 )}
