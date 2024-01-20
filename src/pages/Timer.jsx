@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-
+import {
+    useParams,
+} from "react-router-dom";
 const Timer = () => {
+    let { task } = useParams();
     return (
         <div className="flex flex-col items-center justify-center h-screen">
+            <h1>{task}</h1>
             <CountdownCircleTimer
                 isPlaying
                 duration={30}

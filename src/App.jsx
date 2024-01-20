@@ -20,7 +20,7 @@ function App() {
             path="/page-under-construction"
             element={<PageUnderConstruction />}
           />
-          <Route exact path="/timer" element={<Timer/>} />
+          <Route  path="/timer/:task" element={<Timer/>} />
           <Route exact path="/journal" element={<Journal/>} />
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/activity" element={<Activity/>} />
