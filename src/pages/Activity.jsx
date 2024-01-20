@@ -24,7 +24,7 @@ function Activity() {
           {/* <button className="bg-[#443625] text-2xl  dark:text-white font-semibold rounded-lg py-4 px-8 hover:bg-[#34291b]/80 transition duration-200 w-full mb-4">
           Express Yourself
           </button> */}
-          <Link to="/timer">
+          <Link to="/timer/Inhale , Hold for 5 sec , Exhale">
           <button className="bg-[#443625] text-2xl  dark:text-white font-semibold rounded-lg py-4 px-8 hover:bg-[#34291b]/80 transition duration-200 w-full">
           Breathing Exercise
           </button>
