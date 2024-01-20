@@ -2,7 +2,7 @@ import React from 'react';
 import { FaDiscord } from 'react-icons/fa';
 
 const DiscordButton = () => {
-  const discordLink = 'https://your-discord-link'; // Replace with your actual Discord link
+  const discordLink = 'https://discord.com/invite/g5jFRvAk'; // Replace with your actual Discord link
 
   const openDiscord = () => {
     window.open(discordLink, '_blank');
