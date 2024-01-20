@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./med.jpg");
+  background-image: url("./assets/med.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
