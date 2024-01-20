@@ -21,7 +21,7 @@ function Head() {
         <Link to="/">
           <div className="flex gap-2 items-center">
             <img
-              src="./logo.png"
+              src="./logo3.png"
               alt="icon homepage"
               className="w-10"
             />
