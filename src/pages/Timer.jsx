@@ -30,7 +30,7 @@ const Timer = () => {
                 <button
                     style={{
                         marginTop: '20px', // Added margin-top for space
-                        background: '#d08b2a',
+                        background: '#59b02e',
                         color: 'white',
                         padding: '10px',
                         borderRadius: '5px',

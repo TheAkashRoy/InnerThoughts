@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Distract() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen p-8">
+    <div className="flex flex-col items-center justify-center h-screen p-10 mx-12">
       <div className="bg-[rgba(255, 255, 255, 0.8)] dark:bg-[rgba(17, 23, 41, 0.8)] p-8 rounded-lg shadow-lg">
         {/* Add your five options here */}
         <Link to="/timer/Think of an animal for every letter of the alphabet.">
